@@ -1,0 +1,71 @@
+:root {
+    --roxo-destaque: #9747FF;
+    --roxo-hover: #8233E8;
+    --off-white: #FFFFFF;
+    --grafite: #232323;
+    --fundo-dark: #0E1014;
+    --fundo-light: #F5F5F5;
+}
+
+* {
+    box-sizing: border-box;
+    /*max-width: 100%;*/
+    margin: 0;
+    background-color: var(--fundo-light);
+    font-family: sans-serif, 'Poppins';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza tudo */
+    padding: 100px 100px; /* Reduz o padding */
+    gap: 900px; /* Espaço entre os elementos do header */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+h1{
+    font-weight: 700;
+    color: var(--grafite);
+    text-align: center;
+    font-size: 64px;
+}
+
+.roxo{
+    color: var(--roxo-destaque)
+}
+
+p{
+    font-size: 24px;
+    color: var(--grafite);
+    text-align: center;
+    padding: 30px;
+}
+
+.botao {
+    display: flex;
+    text-decoration: none;
+    width: 340px;
+    height: 66px;
+    font-size: 24px;
+    background-color: var(--roxo-destaque);
+    color: var(--off-white);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 200px;
+}
