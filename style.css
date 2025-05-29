@@ -5,22 +5,24 @@
     --grafite: #232323;
     --fundo-dark: #0E1014;
     --fundo-light: #F5F5F5;
+    --fonte-h1: 'Unbounded', sans-serif;
+    --fonte-p: 'Poppins', sans-serif;
 }
 
 * {
     box-sizing: border-box;
-    /*max-width: 100%;*/
+    max-width: 100%;
     margin: 0;
     background-color: var(--fundo-light);
-    font-family: sans-serif, 'Poppins';
+    font-family: var(--fonte-p);
 }
 
 header {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza tudo */
-    padding: 30px 30px; /* Reduz o padding */
-    gap: 900px; /* Espaço entre os elementos do header */
+    justify-content: center;
+    padding: 30px 30px;
+    gap: 870px;
 }
 
 main {
@@ -30,12 +32,22 @@ main {
     justify-content: center;
 }
 
+.div-principal {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
 .div-texto {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    width: 57.2%;
+    padding: 24px;
 }
 
 .div-botao {
@@ -43,7 +55,8 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    width: 57.2%;
+    padding: 40px;
 }
 
 .div-imagem {
@@ -55,15 +68,16 @@ main {
 }
 
 .h1-div {
-    font-weight: 700;
+    font-weight: 900;
     color: var(--grafite);
     text-align: center;
-    font-size: 48px;
+    font-size: 39px;
+    font-family: var(--fonte-h1);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 14px;
 }
 
 .roxo{
